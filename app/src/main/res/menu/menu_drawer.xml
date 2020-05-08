@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu_Course"
+            android:icon="@drawable/course"
+            android:title="COURSE"/>
+        <item
+            android:id="@+id/menu_Maps"
+            android:icon="@drawable/maps"
+            android:title="MAPS"/>
+        <item
+            android:id="@+id/menu_News"
+            android:icon="@drawable/news"
+            android:title="NEWS"/>
+        <item
+            android:id="@+id/menu_User"
+            android:icon="@drawable/user_24"
+            android:title="USER"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/menu_About"
+                android:icon="@drawable/about"
+                android:title="ABOUT"/>
+            <item
+                android:id="@+id/menu_Logout"
+                android:icon="@drawable/logout"
+                android:title="SIGN OUT"/>
+            <item
+                android:id="@+id/menu_Exit"
+                android:icon="@drawable/exit"
+                android:title="EXIT APP"/>
+        </menu>
+    </item>
+</menu>

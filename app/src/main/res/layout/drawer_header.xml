@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/header"
+    android:layout_width="match_parent"
+    android:layout_height="110dp">
+    <ImageView
+        android:src="@drawable/ironman_100px"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:text="TRỌNG NHÂN"
+        android:textStyle="bold"
+        android:textColor="#F7F2F2"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="trongnhannguyen94@gmail.com"
+        android:textStyle="italic|bold"
+        android:textColor="#F7F2F2"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

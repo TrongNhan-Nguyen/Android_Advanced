@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.Fragment_CourseContainer">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fgGT_CardView"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_height="120dp">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/background_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/fgGT_Title"
+        android:text="APP SCHOOL MANAGER"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FF7900"
+        android:layout_below="@+id/fgGT_CardView"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/fgGT_Title2"
+        android:text="\u00a9 PS10674-Nguyễn Trọng Nhân\u2122"
+        android:layout_below="@+id/fgGT_Title"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:textColor="#FF7900"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/fgGT_Title2"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fgGT_Info"
+            android:text="  System Information"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="#ffff"
+            android:textColor="#FF7900"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/fgGT_InfoDetail"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:textColor="#FF7900"
+            android:paddingLeft="10dp"
+            android:inputType="textMultiLine"
+            android:text="  GVHD : Trần Thị Hường \n  SVTH : Nguyễn Trọng Nhân\n  MSSV: PS10674\n  Lớp : Lập Trình Di Động -- LT15101"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fgGT_Guide"
+            android:text="  Instruction manuals"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#FF7900"
+            android:background="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fgGT_GuideDetail"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:paddingLeft="10dp"
+            android:textColor="#FF7900"
+            android:inputType="textMultiLine"
+            android:text="  HIỆN TẠI CHƯA CÓ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fgGT_Privacy"
+            android:text="   Privacy policy"
+            android:textColor="#FF7900"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fgGT_PrivacyDetail"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:textColor="#FF7900"
+            android:paddingLeft="10dp"
+            android:inputType="textMultiLine"
+            android:text="  HIỆN TẠI CHƯA CÓ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fgGT_Release"
+            android:text="  Release versions"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:textColor="#FF7900"
+            android:layout_marginTop="5dp"
+            android:background="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/fgGT_ReleaseDetail"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            android:textColor="#FF7900"
+            android:paddingLeft="10dp"
+            android:text="  PHÁT HÀNH DUY NHẤT MỘT VERSION  0.0.1\n  KHÔNG PHÁT HÀNH THÊM VERSION NÀO NỮA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="  Latest release:   0.0.1"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffff"
+            android:textColor="#FF7900"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>
